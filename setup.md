@@ -16,7 +16,7 @@
       1. [Python Extension](https://code.visualstudio.com/docs/languages/python) 
       2. [Prompt flow for VSCode](https://marketplace.visualstudio.com/items?itemName=prompt-flow.prompt-flow)
 
-## 2. ทดสอบสร้าง flow แรก
+## 2. เตรียม environment สำหรับ workshop
 
 ### 2.1 สร้าง conda environment สำหรับใช้ในวันนี้
 
