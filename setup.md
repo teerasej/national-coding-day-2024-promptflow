@@ -9,12 +9,12 @@
 
 ติดตั้งโปรแกรมตามรายการนี้
 
-1. [Python 3.11+](https://www.python.org/downloads/)
-2. [Anaconda](https://www.anaconda.com/download) 
+1. [Python 3.9+](https://www.python.org/downloads/)
 3. [Visual Studio Code](https://code.visualstudio.com/download)
    1. เสร็จแล้วติดตั้ง Extension ตามนี้
       1. [Python Extension](https://code.visualstudio.com/docs/languages/python) 
       2. [Prompt flow for VSCode](https://marketplace.visualstudio.com/items?itemName=prompt-flow.prompt-flow)
+
 
 ## 2. เตรียม environment สำหรับ workshop
 
