@@ -103,5 +103,5 @@ conda activate ncd-promptflow
    <img width="847" alt="2024-11-23_21-03-12" src="https://github.com/user-attachments/assets/4e2e9840-e1c9-4466-9bb6-39fea8dd4242">
 
 
-
+5. ทดสอบว่าติดตั้งสมบูรณ์หรือไม่ โดยปิดและเปิด Visual Studio code ใหม่ และเข้ามาเช็คในส่วน Promptflow Activity > install dependencies ว่าสถานะของ dependencies ยังเป็นสีเขียวหรือไม่
 
