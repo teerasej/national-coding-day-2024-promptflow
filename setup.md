@@ -18,7 +18,30 @@
 
 ## 2. เตรียม environment สำหรับ workshop
 
-### 2.1 สร้าง conda environment สำหรับใช้ในวันนี้
+### 2.1 Activate Conda
+
+#### สำหรับคนที่ใช้ bash shell
+
+
+```bash
+conda init bash
+```
+
+#### สำหรับคนที่ใช้ zsh shell
+
+
+```bash
+conda init zsh
+```
+
+#### สำหรับคนที่ใช้ powershell
+
+
+```bash
+conda init powershell
+```
+
+### 2.2 สร้าง conda environment สำหรับใช้ในวันนี้
 
 หลังจากติดตั้ง conda แล้ว ให้เปิด Terminal หรือ command prompt ขึ้นมา เพื่อรันคำสั่งด้านล่าง เพื่อสร้าง environment สำหรับใช้ในวัน workshop 
 
@@ -27,7 +50,9 @@ conda create --name ncd-promptflow
 conda activate ncd-promptflow
 ```
 
-### 2.2 เลือก activate conda environment
+
+
+### 2.3 เลือก activate conda environment
 
 1. เปิดแอพ Visual Studio Code > เปิด Promptflow Activity ทางด้านซ้าย จะสังเกตเห็นว่า dependencies ของ package ยังไม่ถูกติดตั้ง ให้กดเลือก install dependencies
 
@@ -51,7 +76,7 @@ conda activate ncd-promptflow
    <img width="863" alt="2024-11-23_20-59-47" src="https://github.com/user-attachments/assets/a08fae27-07b6-4b83-a506-048e0fb8f972">
 
 
-### 2.3 เริ่มติดตั้ง package และเช็คความพร้อม
+### 2.4 เริ่มติดตั้ง package และเช็คความพร้อม
 
 1. เลื่อนลงมาด้านล่าง จะเป็นส่วน **Install Status** ที่แสดงรายชื่อ dependencies ที่จำเป็นต่อการทำงานของ promptflow ตอนนี้จะเห็นว่าทุกอันไม่พร้อมใช้งาน เราจะกลับมาที่นี่ทีหลัง
 
